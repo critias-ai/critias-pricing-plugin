@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use these skills in your work, please cite them as below.
+title: "Critias Pricing Plugin: pricing skills for AI agents"
+type: software
+authors:
+  - family-names: Kodvavi
+    given-names: Danial
+version: 0.4.11
+license: MIT
+repository-code: https://github.com/critias-ai/critias-pricing-plugin
+url: https://critias.ai
+keywords:
+  - pricing
+  - gross margin
+  - agent skills
+  - price realisation

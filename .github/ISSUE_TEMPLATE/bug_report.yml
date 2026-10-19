@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in a skill gave a wrong, missing or unclear result.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never paste real business data. Use synthetic or redacted figures.
+  - type: input
+    id: host
+    attributes:
+      label: AI host and version
+      placeholder: e.g. Claude Code 2.4, Codex desktop 1.9
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      description: The `version` in plugin.json.
+      placeholder: e.g. 0.4.11
+    validations:
+      required: true
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      placeholder: e.g. pricing-analyze
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you asked and what you attached
+      description: The prompt, and a description or redacted sample of the data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include the reply text or a screenshot.
+    validations:
+      required: true
