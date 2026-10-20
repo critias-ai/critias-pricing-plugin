@@ -28,7 +28,7 @@
 | What value differentiates an offer? | [Value estimation](methods/value-estimation.md) |
 | Which differences justify workable pricing segments? | [Segmentation](methods/segmentation.md) |
 | Which retail, channel or order economics are comparable? | [Retail economics](retail-economics.md) |
-| What recurring revenue, cohort or lifecycle measure applies? | [Recurring metrics](recurring-metrics.md) |
+| What recurring revenue, cohort, lifecycle or acquisition-cost measure applies, and does cash tie to it? | [Recurring metrics](recurring-metrics.md) |
 | Which unit, package and charging structure fits? | [Offer architecture](methods/offer-architecture.md) |
 | What effect does an experiment or promotion support? | [Experiments and promotions](methods/experiments-and-promotions.md) |
 | How should a recurring or usage schedule or movement be evaluated? | [Recurring scenarios](methods/recurring-scenarios.md) |
