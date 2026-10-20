@@ -7,6 +7,7 @@ Notable changes to the pricing skills. The format follows [Keep a Changelog](htt
 - Payment and spend export checklist for founders (`pricing-intake`).
 - Month-end MRR counts a period that spans the instant the month ends, in the confirmed time zone.
 - Per-channel CAC: unlinked customers are never split across paid platforms; the ranking is stated with its condition.
+- The Claude marketplace is now named `critias`; install with `pricing-plugin@critias`.
 
 ## [0.4.11]
 
