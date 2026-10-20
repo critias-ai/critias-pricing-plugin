@@ -1,9 +1,6 @@
 <p align="center">
   <a href="https://critias.ai">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/critias-wordmark-marble.svg">
-      <img alt="Critias" src=".github/assets/critias-wordmark-ink.svg" width="280">
-    </picture>
+    <img alt="Critias Pricing Plugin: pricing skills for AI agents" src=".github/assets/banner.png" width="100%">
   </a>
 </p>
 
