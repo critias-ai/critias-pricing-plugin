@@ -37,6 +37,7 @@ Run the checks relevant to the metric and risk with available tools. Saved mappi
 - Inspect raw numeric representations, types and parsing outcomes, including mixed decimal and grouping conventions.
 - Normalize only an evidenced, unambiguous interpretation, then verify amounts and scale. Ambiguous separators need clarification.
 - Preserve source values and expose parse failures.
+- Exports can carry title, date-range, subtotal and total rows around the data. Exclude them from calculations, and use any totals as a check.
 
 **Structure and timing**
 
@@ -46,6 +47,7 @@ Run the checks relevant to the metric and risk with available tools. Saved mappi
   - event or consumption time versus processing or posting time
   - meter corrections and cutoffs
   - exposure maturity and settlement state
+  - the time zone of each source's timestamps, where sources set month boundaries differently
 - Check cancellations, signed credits and returns, and definition changes.
 
 **Prices and costs**
