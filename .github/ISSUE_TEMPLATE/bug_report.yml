@@ -17,7 +17,7 @@ body:
     attributes:
       label: Plugin version
       description: The `version` in plugin.json.
-      placeholder: e.g. 0.4.11
+      placeholder: e.g. 0.4.12
     validations:
       required: true
   - type: input
