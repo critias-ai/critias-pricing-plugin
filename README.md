@@ -24,6 +24,21 @@ Paste this into your AI agent:
 Install the Pricing Plugin by fetching and following the instructions at https://raw.githubusercontent.com/critias-ai/critias-pricing-plugin/refs/heads/main/INSTALL.md
 ```
 
+### Install with npm
+
+```bash
+npx @critias/pricing-plugin ~/plugins
+```
+
+This copies the complete plugin to `~/plugins/pricing-plugin`. In Claude Code, add it and install it:
+
+```text
+/plugin marketplace add ~/plugins/pricing-plugin
+/plugin install pricing-plugin@critias
+```
+
+For other hosts, register that folder as a local plugin catalogue as described in [INSTALL.md](INSTALL.md). Run the command again after an update; it replaces the copy.
+
 ## Recommended first step: company context
 
 Use `pricing-intake` to establish reusable context, or start directly with your pricing question when enough information is available.

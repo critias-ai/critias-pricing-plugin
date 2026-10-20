@@ -114,6 +114,15 @@ def check_manifests(root):
     return manifest["version"]
 
 
+def check_npm(root, version):
+    package = json.loads((root / "package.json").read_text())
+    if package.get("name") != "@critias/pricing-plugin" or package.get("version") != version:
+        raise ValueError("package.json must name @critias/pricing-plugin at the plugin.json version")
+    for entry in package.get("files", []):
+        if not (root / entry).exists():
+            raise ValueError(f"package.json lists a missing file: {entry}")
+
+
 def check_skills(root):
     folders = sorted(path.parent for path in (root / "skills").glob("*/SKILL.md"))
     if not folders:
@@ -168,6 +177,7 @@ def check_package(root=ROOT):
     files = package_files(root)
     check_files(root, files)
     version = check_manifests(root)
+    check_npm(root, version)
     skills = check_skills(root)
     check_package_links(root, files)
     docs = check_docs(root)

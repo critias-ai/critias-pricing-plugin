@@ -1,0 +1,34 @@
+{
+  "name": "@critias/pricing-plugin",
+  "version": "0.4.12",
+  "description": "Open-source pricing skills for AI agents: gross margin, price-volume-mix and price realisation analysis, opportunity scans, pricing design and rollout planning.",
+  "homepage": "https://critias.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/critias-ai/critias-pricing-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/critias-ai/critias-pricing-plugin/issues"
+  },
+  "keywords": ["pricing", "gross-margin", "price-volume-mix", "agent-skills", "claude-code", "saas", "b2b"],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "critias-pricing-plugin": "bin/critias-pricing-plugin.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "plugin.json",
+    ".claude-plugin",
+    "LICENSE",
+    "CHANGELOG.md",
+    "INSTALL.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -12,3 +12,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/check_package.py
+      - name: npm installer copies the complete plugin
+        run: |
+          node bin/critias-pricing-plugin.mjs "$RUNNER_TEMP/catalogue"
+          test -f "$RUNNER_TEMP/catalogue/pricing-plugin/.claude-plugin/marketplace.json"
+          test -f "$RUNNER_TEMP/catalogue/pricing-plugin/skills/knowledge/index.md"
+          npm pack --dry-run
