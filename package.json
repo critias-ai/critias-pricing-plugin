@@ -1,6 +1,6 @@
 {
   "name": "@critias/pricing-plugin",
-  "version": "0.4.12",
+  "version": "0.4.13",
   "description": "Open-source pricing skills for AI agents: gross margin, price-volume-mix and price realisation analysis, opportunity scans, pricing design and rollout planning.",
   "homepage": "https://critias.ai",
   "repository": {
