@@ -2,6 +2,10 @@
 
 Notable changes to the pricing skills. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [0.4.13]
+
+- Implausible-value check flags unit prices or costs at five times, or a fifth of, the item's median (was ten times), matching the check Critias runs.
+
 ## [0.4.12]
 
 - Payment and spend export checklist for founders (`pricing-intake`).
